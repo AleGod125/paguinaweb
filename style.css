@@ -1,0 +1,267 @@
+body {
+    background-color: #f2f2f2;
+}
+
+.Alenavbar {
+    background-color: white;
+    display: flex;
+    z-index: 5;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    transform-style: inherit;
+}
+
+.Alecontainer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 24px;
+
+}
+
+.Alecontainer2 {
+    margin-left: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.search {
+    border: 2px solid red;
+    border-radius: 5px;
+    padding: 10px;
+    width: 80%;
+    outline: red;
+}
+
+.btnsearch {
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid red;
+    border-radius: 15px;
+    font-weight: bold;
+    color: red;
+    padding: 10px;
+    width: 15%;
+}
+
+.puclicidad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+    .puclicidad {
+        flex-direction: column;
+    }
+}
+
+
+
+.pu1 {
+    width: 32%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.pu2 {
+    width: 32%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.pu3 {
+    width: 32%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+    border-radius: 20px;
+    margin: 8px;
+}
+
+.truck {
+    background-color: lightgray;
+    padding: 24px;
+    clip-path: circle(40%);
+    width: auto;
+    height: auto;
+}
+
+.textTitle {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 30%;
+    margin: 25px auto 0;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+
+.textsub {
+    background-color: rgba(0, 0, 0, 0.637);
+    width: 40%;
+    margin: -1px auto 0;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.personalizarcamisas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    border-radius: 20px;
+    background-image: url("https://cdn.latostadora.com/img/designtoollandings/tshirts/es/mainbanner.desktop.webp");
+    background-size: cover;
+    /* Ajustar la imagen para que cubra todo el contenedor */
+    background-position: center;
+    /* Centrar la imagen en el contenedor */
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+}
+
+.divbutom {
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 16px;
+    border-radius: 20px;
+    box-shadow: 0 -1px 10px rgba(255, 0, 0, 0.7);
+    margin-left: 65%;
+    margin-top: 20%;
+    margin-bottom: 3%;
+}
+
+.btnperzonalizar {
+    margin-top: 24px;
+    border: 2px solid red;
+    border-radius: 8px;
+    background-color: white;
+    padding: 8px;
+    color: red;
+    font-weight: bold;
+    box-shadow: 0 -1px 10px rgba(255, 0, 0, 0.7);
+}
+
+.contactos {
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.botonesPersonalizados {
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 25%;
+    height: 25%;
+    margin-top: 3%;
+    margin-left: 3%;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+}
+
+.botonesPersonalizados>* {
+    margin-bottom: 30px;
+}
+
+.botonPerzonalido {
+    padding: 16px;
+    border-radius: 15px;
+    background-color: transparent;
+    font-weight: bold;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, .7);
+
+}
+
+.personalizacion {
+    display: flex;
+    display: none;
+}
+
+.camisas {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px;
+    position: relative;
+}
+
+.canvas {
+    border: 3px solid black;
+    position: absolute;
+    /* Cambia la posición a absoluta */
+    top: 50%;
+    /* Coloca el 50% desde la parte superior */
+    left: 50%;
+    /* Coloca el 50% desde la parte izquierda */
+    transform: translate(-50%, -50%);
+    /* Aplica una traslación para centrar completamente */
+    width: 35%;
+    height: 50%;
+}
+
+.colores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto 0;
+    display: none;
+}
+
+.colores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: 0 auto 0;
+    display: none;
+}
+
+.color {
+    width: 50px;
+    height: 50px;
+    margin: 16px;
+    border-radius: 50%;
+    transition: box-shadow 0.3s ease;
+}
+
+.color:hover {
+    box-shadow: 0 0 0 4px orange!important;
+    cursor: pointer;
+}
+
+.color.selected {
+    box-shadow: 0 0 0 4px orange;
+    /* Cambiar el tamaño y color del borde al ser seleccionado */
+}
